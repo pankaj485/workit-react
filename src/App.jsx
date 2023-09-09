@@ -7,13 +7,13 @@ import Promotion from "./components/promotion/Promotion";
 
 function App() {
 	return (
-		<>
+		<div className="appBody">
 			<NavBar />
 			<Hero />
 			<Info />
 			<Promotion />
 			<Footer />
-		</>
+		</div>
 	);
 }
 
