@@ -1,9 +1,18 @@
 import "./App.css";
+import Footer from "./components/footer/Footer";
+import Hero from "./components/hero/Hero";
+import Info from "./components/info/Info";
+import NavBar from "./components/navbar/NavBar";
+import Promotion from "./components/promotion/Promotion";
 
 function App() {
 	return (
 		<>
-			<div className="bg-red-400 text-center">Frontend Mentor | Workit landing page</div>
+			<NavBar />
+			<Hero />
+			<Info />
+			<Promotion />
+			<Footer />
 		</>
 	);
 }
