@@ -20,7 +20,7 @@ const Hero = () => {
 			<div className="shape after:bg-Dark-Purple"></div>
 			<img
 				className="relative heroContainerImage "
-				src="../../../public/assets/images/image-hero.webp"
+				src="/assets/images/image-hero.webp"
 				alt="hero image"
 			/>
 		</div>

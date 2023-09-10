@@ -1,11 +1,7 @@
 const Promotion = () => {
 	return (
 		<div className="promotionBlock mx-4 mt-24">
-			<img
-				className="px-8"
-				src="../../../public/assets/images/image-founder.webp"
-				alt="founder image"
-			/>
+			<img className="px-8" src="/assets/images/image-founder.webp" alt="founder image" />
 			<div className="relative bg-Dark-Purple text-white p-8 text-center -mt-10 ">
 				<h2 className="font-Fraunces text-3xl font-semibold mb-4">Be the first to test</h2>
 				<p className="text-base leading-7 ">
