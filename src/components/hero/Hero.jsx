@@ -12,7 +12,7 @@ const Hero = () => {
 						</span>{" "}
 						to your needs.
 					</h1>
-					<button className="bg-Eucaplyptus px-6 py-3 font-bold text-Dark-Purple leading-buttonFontLineHeight tracking-navbarCustomSpacing">
+					<button className="bg-Eucaplyptus px-6 py-3 font-bold text-Dark-Purple leading-buttonFontLineHeight tracking-navbarCustomSpacing hover:cursor-pointer border-2 border-transparent active:border-2 active:border-Eucaplyptus active:bg-transparent active:text-Eucaplyptus ">
 						Learn More
 					</button>
 				</div>

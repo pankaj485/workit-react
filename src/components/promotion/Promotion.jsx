@@ -9,7 +9,7 @@ const Promotion = () => {
 					beta tester for our app and kickstart your company. Apply for access below and I'll be in
 					touch to schedule a call.
 				</p>
-				<button className="bg-Eucaplyptus px-6 py-3 mt-6 mb-8  font-bold text-Dark-Purple leading-buttonFontLineHeight tracking-navbarCustomSpacing">
+				<button className="bg-Eucaplyptus px-6 py-3 mt-6 mb-8  font-bold text-Dark-Purple leading-buttonFontLineHeight tracking-navbarCustomSpacing hover:cursor-pointer border-2 border-transparent active:border-2 active:border-Eucaplyptus active:bg-transparent active:text-Eucaplyptus ">
 					Apply for access
 				</button>
 			</div>
