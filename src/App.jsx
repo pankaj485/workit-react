@@ -7,7 +7,7 @@ import Promotion from "./components/promotion/Promotion";
 
 function App() {
 	return (
-		<div className="appBody">
+		<div>
 			<NavBar />
 			<Hero />
 			<Info />

@@ -2,7 +2,7 @@ import "./hero.css";
 
 const Hero = () => {
 	return (
-		<>
+		<div className="bg-Ghost-White">
 			<div className=" bg-Dark-Purple text-White px-4 pt-16 overflow-hidden flex justify-center items-center flex-col">
 				<div className="flex justify-center flex-col items-center gap-10 ">
 					<h1 className="inline-block font-Fraunces text-heroFontSize font-heroFontWeight leading-heroFontLineHeight text-center ">
@@ -17,13 +17,13 @@ const Hero = () => {
 					</button>
 				</div>
 			</div>
-			<div className="shape after:bg-Dark-Purple "></div>
+			<div className="shape after:bg-Dark-Purple"></div>
 			<img
-				className="relative -top-28"
+				className="relative heroContainerImage "
 				src="../../../public/assets/images/image-hero.webp"
 				alt="hero image"
 			/>
-		</>
+		</div>
 	);
 };
 

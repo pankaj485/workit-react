@@ -4,7 +4,7 @@
 	height: 180px;
 	/* top: -3rem; */
 	width: 100%;
-	z-index: -1;
+	z-index: 0;
 }
 
 .shape::after {
@@ -15,4 +15,10 @@
 	top: -200px;
 	content: "";
 	bottom: 0;
+}
+
+.heroContainerImage {
+	width: 320px;
+	margin: auto;
+	margin-top: -6rem;
 }
