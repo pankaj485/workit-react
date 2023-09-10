@@ -1,6 +1,6 @@
 const Promotion = () => {
 	return (
-		<div className="promotionBlock mx-4 ">
+		<div className="promotionBlock mx-4 mt-24">
 			<img
 				className="px-8"
 				src="../../../public/assets/images/image-founder.webp"
