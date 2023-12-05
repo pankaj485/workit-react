@@ -3,7 +3,7 @@ import "./info.css";
 const Info = () => {
 	return (
 		<div className="">
-			<div className="bg-Ghost-White flex flex-col justify-center items-center gap-10 px-4 pt-16">
+			<div className="bg-Ghost-White flex flex-col justify-center items-center gap-14 px-4 pt-16">
 				<div className="infoCard flex flex-col items-center justify-center">
 					<div className="flex items-center justify-center rounded-full border border-1 h-10 w-10 p-6 border-Davys-Gray">
 						<h3 className="font-Fraunces text-xl text-Dark-Purple ">1</h3>
